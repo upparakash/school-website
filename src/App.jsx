@@ -1,7 +1,11 @@
-import React from 'react'
+import RegistrationForm from './RegistrationForm';
 
-export default function App() {
+function App() {
   return (
-    <div>App</div>
-  )
+    <div className="min-h-screen bg-gray-100">
+      <RegistrationForm />
+    </div>
+  );
 }
+
+export default App;
